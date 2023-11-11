@@ -15,10 +15,10 @@ export const SplitScreen = ({
   const [left, right] = children
   return (
     <Container>
-      <Pane weight={leftWeight} >
+      <Pane weight ={leftWeight} >
         {left}
       </Pane>
-      <Pane weight={rightWeight} > 
+      <Pane weight = {rightWeight} > 
         {right}
       </Pane>
     </Container>
